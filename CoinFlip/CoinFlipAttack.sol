@@ -21,5 +21,4 @@ contract CoinFlipAttack {
 
         victim.flip(side);
     }
-
 }
