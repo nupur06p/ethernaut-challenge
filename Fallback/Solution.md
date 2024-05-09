@@ -31,12 +31,9 @@ Since we have the ownership, we call the withdraw() function which can be called
 
 ## Steps for the above challenge 
 1. Call the contribute function and send 1 wei
-<<<<<<< HEAD
 2. Send 1 wei to the contract
 3. Ownership of the contract is claimed
 4. Use the withdraw() functiont to transfer funds
-=======
-2. Send 1 wei to the contract.
-3. Ownership of the contract is claimed.
-4. Use the withdraw() functiont to transfer funds.
->>>>>>> 090d8e75d2cc492fdf1eaa1963506bbaef5f673e
+5. Ownership of the contract is claimed.
+
+
