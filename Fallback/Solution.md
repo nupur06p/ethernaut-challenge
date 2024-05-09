@@ -34,6 +34,6 @@ Since we have the ownership, we call the withdraw() function which can be called
 2. Send 1 wei to the contract
 3. Ownership of the contract is claimed
 4. Use the withdraw() functiont to transfer funds
-5. Ownership of the contract is claimed.
+5. Funds are withdrawn from the contract and balance is 0.
 
 
