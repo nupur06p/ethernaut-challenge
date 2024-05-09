@@ -6,10 +6,6 @@ In the FallBack challenge, we have two challenges to beat the level:
 1. Claim ownership of the contract
 2. Reduce its balance to 0
 
-![alt text](image1.png)
-
-![alt text](image2.png)
-
 ## Claim Ownership
 
 The owner of the contract is mentioned at three places - the constructor, the contribution() function and receive() function.
@@ -31,6 +27,6 @@ Since we have the ownership, we call the withdraw() function which can be called
 
 ## Steps for the above challenge 
 1. Call the contribute function and send 1 wei
-2. Send 1 wei to the contract.
-3. Ownership of the contract is claimed.
-4. Use the withdraw() functiont to transfer funds.
+2. Send 1 wei to the contract
+3. Ownership of the contract is claimed
+4. Use the withdraw() functiont to transfer funds
