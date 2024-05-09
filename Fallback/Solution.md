@@ -6,14 +6,6 @@ In the FallBack challenge, we have two challenges to beat the level:
 1. Claim ownership of the contract
 2. Reduce its balance to 0
 
-<<<<<<< HEAD
-=======
-![image1](https://github.com/nupur06p/Ethernaut-Challenge/assets/65718259/413122fd-8684-4929-ad9d-4acbf367829e)
-
-![image2](https://github.com/nupur06p/Ethernaut-Challenge/assets/65718259/3dd7c6f6-ce2a-4127-b043-d37bd6bfed04)
-
-
->>>>>>> 090d8e75d2cc492fdf1eaa1963506bbaef5f673e
 ## Claim Ownership
 
 The owner of the contract is mentioned at three places - the constructor, the contribution() function and receive() function.
@@ -35,12 +27,7 @@ Since we have the ownership, we call the withdraw() function which can be called
 
 ## Steps for the above challenge 
 1. Call the contribute function and send 1 wei
-<<<<<<< HEAD
 2. Send 1 wei to the contract
 3. Ownership of the contract is claimed
 4. Use the withdraw() functiont to transfer funds
-=======
-2. Send 1 wei to the contract.
-3. Ownership of the contract is claimed.
-4. Use the withdraw() functiont to transfer funds.
->>>>>>> 090d8e75d2cc492fdf1eaa1963506bbaef5f673e
+5. Funds are withdrawn from the contract and balance is 0.
