@@ -13,3 +13,7 @@ Below are the levels which we would be discussing-
 5. [Token](https://github.com/nupur06p/Ethernaut-Challenge/tree/fb4ff837da8506bbfdf62ddac720dbe15e11485a/Token)
 6. [Delegation](https://github.com/nupur06p/Ethernaut-Challenge/tree/fb4ff837da8506bbfdf62ddac720dbe15e11485a/Delegation)
 7. [Force](https://github.com/nupur06p/Ethernaut-Challenge/tree/fb4ff837da8506bbfdf62ddac720dbe15e11485a/Force)
+8. [Vault](https://github.com/nupur06p/Ethernaut-Challenge/tree/dfab6cceab8d6c1f227bf2bc789f4f2360bf5c81/Vault)
+9. [King](https://github.com/nupur06p/Ethernaut-Challenge/tree/dfab6cceab8d6c1f227bf2bc789f4f2360bf5c81/King)
+10. [Reentrancy](https://github.com/nupur06p/Ethernaut-Challenge/tree/dfab6cceab8d6c1f227bf2bc789f4f2360bf5c81/Reentrancy)
+11. [Elevator](https://github.com/nupur06p/Ethernaut-Challenge/tree/dfab6cceab8d6c1f227bf2bc789f4f2360bf5c81/Elevator)
