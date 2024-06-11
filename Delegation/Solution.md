@@ -1,7 +1,7 @@
 
 # Delegation
 
-In the Delegation challenge, we have the below complexity to beat the level:
+In this challenge, we have the below complexity to beat the level:
 
 "The goal of this level is for you to claim ownership of the instance you are given."
 
@@ -15,7 +15,7 @@ Here, in this example the Fallback function is not marked payable and hence, it 
 
 Let us now understand the `delegate` call. Delegate call is a special, low level function call intended to invoke functions from another contract. The advantage of `delegatecall()` is that it can preserve the current, calling contract’s context. This context includes its storage and its msg.sender, msg.value attributes.
 
-## Workingmechanism of DelegateCall
+## Working mechanism of DelegateCall
 
 1. Contract A initiates a `delegate` call to Contract B, specifying which function to execute in Contract B.
 
@@ -33,8 +33,8 @@ Quick Note on Storage: Ethereum stores data in storage “slots”, which are th
 * msg.value
 
 5. If ContractA utilises a delegate call to call a function from ContractB, the following two statements are true:
-a. ContractA’s state variables can be read and written.
-b. ContractB’s state variables are never read or written.
+a. Contract A’s state variables can be read and written.
+b. Contract B’s state variables are never read or written.
 
 The slot 0 of the `Delegation` contract also stores the owner, the exact variable we wish to change. Furthermore, it seems that if we manage to invoke the fallback function in `Delegation.sol` to invoke `pwn()`, we will become the calling contract’s owner.
 

@@ -1,7 +1,7 @@
 
 # Token
 
-In the Token challenge, we have the below complexity to beat the level:
+In this challenge, we have the below complexity to beat the level:
 
 "The goal of this level is for you to hack the basic token contract.
 
@@ -20,6 +20,6 @@ Hence, if we subtract 1 from a uint256 that is equal to 0, we will get 2^256-1. 
 Hence, inorder to hack the contract, we can underflow `balances[msg.sender]` with the line `balances[msg.sender] -= _value`, to get the largest number a uint256 can store, which is 2^256 - 1. Now, we already have 20 tokens initially. Hence, to hack the level we call transfer() with a value of 21. This is done in contract `TokenAttack.sol`, where we create an instance of `Token` contract and then call the function `transfer` and pass address as `msg.sender` and `21` as number of tokens.
 
 ## Steps for the above challenge
-1. A contarct `TokenAttack` is created with an instance of contract `Toekn`.
+1. A contarct `TokenAttack` is created with an instance of contract `Token`.
 2. The function `transfer` is called, the address is passed as msg.sender and number of tokens 21.
 3. Now we have sent 21 tokens from our initial supply of 20 tokens.

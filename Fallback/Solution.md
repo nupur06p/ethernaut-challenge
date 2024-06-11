@@ -1,7 +1,7 @@
 
 # FallBack
 
-In the FallBack challenge, we have two challenges to beat the level:
+In this challenge, we have the below two complexities to beat the level:
 
 1. Claim ownership of the contract
 2. Reduce its balance to 0

@@ -1,7 +1,7 @@
 
 # Vault
 
-In the Vault challenge, we have the below complexity to beat the level:
+In this challenge, we have the below complexity to beat the level:
 
 "Unlock the vault to pass the level!."
 

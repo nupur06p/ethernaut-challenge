@@ -1,7 +1,7 @@
 
 # Fallout
 
-In the Fallout challenge, we hae the below complexity to beat the level:
+In this challenge, we hae the below complexity to beat the level:
 
 ### Claim ownership of the contract below to complete this level.
 

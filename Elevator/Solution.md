@@ -1,7 +1,7 @@
 
 # Elevator
 
-In the Elevator challenge, we have the below complexity to beat the level:
+In this challenge, we have the below complexity to beat the level:
 
 "This elevator won't let you reach the top of your building. Right?"
 

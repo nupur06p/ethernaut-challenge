@@ -1,7 +1,7 @@
 
 # King
 
-In the King challenge, we have the below complexity to beat the level:
+In this challenge, we have the below complexity to beat the level:
 
 "The contract represents a very simple game: whoever sends it an amount of ether that is larger than the current prize becomes the new king. On such an event, the overthrown king gets paid the new prize, making a bit of ether in the process! As ponzi as it gets xD
 

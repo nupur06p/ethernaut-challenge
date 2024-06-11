@@ -1,7 +1,7 @@
 
 # Force
 
-In the Force challenge, we have the below complexity to beat the level:
+In this challenge, we have the below complexity to beat the level:
 
 "The goal of this level is to make the balance of the contract greater than zero."
 
